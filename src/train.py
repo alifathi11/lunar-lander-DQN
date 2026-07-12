@@ -4,8 +4,8 @@ import numpy as np
 import torch 
 import matplotlib.pyplot as plt
 
-from game import LunarLanderEnv
-from agent import Agent
+from src.game import LunarLanderEnv
+from src.agent import Agent
 
 ##############################################
 ############## Reproducibility ###############

@@ -1,5 +1,5 @@
 import time
-from game import LunarLanderEnv
+from src.game import LunarLanderEnv
 
 def run_random_agent():
     env = LunarLanderEnv(render_mode="human")

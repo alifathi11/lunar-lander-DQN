@@ -1,7 +1,5 @@
-import torch 
-
-from game import LunarLanderEnv
-from agent import Agent
+from src.game import LunarLanderEnv
+from src.agent import Agent
 
 WEIGHTS_PATH = "weights.pth"
 

@@ -7,7 +7,7 @@ import torch.nn as nn
 
 import numpy as np 
 
-from model import create_policy_net, create_target_net
+from src.model import create_policy_net, create_target_net
 
 Transition = namedtuple(
     "Transition",
