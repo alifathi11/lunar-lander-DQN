@@ -104,8 +104,8 @@ class Agent:
 
         states = torch.tensor(states, dtype=torch.float32, device=self.device)
         actions = torch.tensor(actions, dtype=torch.int64, device=self.device).unsqueeze(1)
-        rewards = torch.tensor(rewards, dtype=torch.float32, deviec=self.device).unsqueeze(1)
-        next_states = torch.tensor(next_states, dtype=torch.float32, devie=self.device)
+        rewards = torch.tensor(rewards, dtype=torch.float32, device=self.device).unsqueeze(1)
+        next_states = torch.tensor(next_states, dtype=torch.float32, device=self.device)
         dones = torch.tensor(dones, dtype=torch.int64, device=self.device).unsqueeze(1)
 
         current_q_values = self.policy_net(states).gather(1, actions)

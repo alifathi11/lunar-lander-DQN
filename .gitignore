@@ -1,4 +1,6 @@
 .venv
 .vscode
 __pycache__
+weights.pth
+training_rewards.png
 

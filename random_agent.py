@@ -4,7 +4,7 @@ from game import LunarLanderEnv
 def run_random_agent():
     env = LunarLanderEnv(render_mode="human")
     
-    episodes = 5
+    episodes = 10
     
     for ep in range(episodes):
         state = env.reset(seed=42 + ep)
